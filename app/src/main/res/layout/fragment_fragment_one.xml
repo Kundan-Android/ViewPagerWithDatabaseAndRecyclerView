@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.viewpagerwithdatabaseandrecyclerview.FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext1"
+        android:textSize="26sp"
+
+        android:layout_marginTop="20dp"
+        android:hint="Enter Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext2"
+        android:hint="Enter Subject"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext3"
+        android:hint="Enter email "
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:textSize="26sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#F00"
+        android:gravity="center"
+        android:background="#0AF"
+        android:text="Save"
+        />
+</LinearLayout>
